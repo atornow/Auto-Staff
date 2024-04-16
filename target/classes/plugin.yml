@@ -1,0 +1,9 @@
+name: MyFirstPlugin
+main: com.truevanilla.plugin.MyFirstPlugin
+version: 1.0
+api-version: 1.19
+commands:
+  togglefeature:
+    description: Toggles the random item feature on and off for players joining the server.
+    usage: /togglefeature
+    aliases: [tfeature, tf]
